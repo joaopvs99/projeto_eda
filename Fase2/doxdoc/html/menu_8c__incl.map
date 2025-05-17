@@ -1,0 +1,11 @@
+<map id="src/menu.c" name="src/menu.c">
+<area shape="rect" id="node1" title="Funções associadas ao menu da consola." alt="" coords="85,5,179,32"/>
+<area shape="rect" id="node2" href="$menu_8h.html" title="Funções associadas ao menu da consola." alt="" coords="65,80,199,107"/>
+<area shape="rect" id="node3" href="$efeito__nef_8h.html" title="Estrura do efeito nefasto e funções a associadas." alt="" coords="83,155,181,181"/>
+<area shape="rect" id="node4" href="$mapa_8h.html" title="Estrutura da mapa e função associadas." alt="" coords="97,229,167,256"/>
+<area shape="rect" id="node5" href="$emissor_8h.html" title="Estrutura da emissor e funções associadas." alt="" coords="89,304,175,331"/>
+<area shape="rect" id="node6" href="$trata__erro_8h.html" title="Estrutura de erro e funções associadas." alt="" coords="83,379,181,405"/>
+<area shape="rect" id="node7" title=" " alt="" coords="5,453,72,480"/>
+<area shape="rect" id="node8" title=" " alt="" coords="97,453,167,480"/>
+<area shape="rect" id="node9" title=" " alt="" coords="191,453,262,480"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="include/emissor.h" name="include/emissor.h">
+<area shape="rect" id="node1" title="Estrutura da emissor e funções associadas." alt="" coords="60,5,196,32"/>
+<area shape="rect" id="node2" href="$emissor_8c.html" title="funções relativas aos emissores" alt="" coords="5,80,112,107"/>
+<area shape="rect" id="node3" href="$mapa_8h.html" title="Estrutura da mapa e função associadas." alt="" coords="136,80,259,107"/>
+<area shape="rect" id="node4" href="$mapa_8c.html" title="funções relativas ao mapa" alt="" coords="77,155,171,181"/>
+<area shape="rect" id="node5" href="$efeito__nef_8h.html" title="Estrura do efeito nefasto e funções a associadas." alt="" coords="195,155,346,181"/>
+<area shape="rect" id="node6" href="$efeito__nef_8c.html" title="funções relativas ao efeito nefasto" alt="" coords="137,229,258,256"/>
+<area shape="rect" id="node7" href="$menu_8h.html" title="Funções associadas ao menu da consola." alt="" coords="283,229,405,256"/>
+<area shape="rect" id="node8" href="$menu_8c.html" title="Funções associadas ao menu da consola." alt="" coords="297,304,391,331"/>
+</map>
