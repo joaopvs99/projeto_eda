@@ -176,53 +176,5 @@ GrafoAntenas *CriarTodasAdjacencias(GrafoAntenas *grafo, CodigoErro *codigo);
  * @brief  Estrutura de um resultado de pesquisa
  *
  */
-typedef struct Listagem
-{
-    Vertice *vertice; // Ponteiro para o vértice original
-    struct Listagem *next;
-} Listagem;
-
-/**
- * @brief  Realiza uma busca em profundidade no grafo a partir de um vértice de origem
- *
- * @param grafo
- * @param idOrigem
- * @param codigo
- * @return ResultadoPesquisa*
- */
-Listagem *DepthFirstSearch(GrafoAntenas *grafo, int idOrigem, CodigoErro *codigo);
-
-/**
- * @brief Realiza uma busca em largura no grafo a partir de um vértice de origem
- *
- * @param grafo
- * @param idOrigem
- * @param codigo
- * @return ResultadoPesquisa*
- */
-Listagem *BreadthFirstSearch(GrafoAntenas *grafo, int idOrigem, CodigoErro *codigo);
-/**
- * @brief  Imprime a lista de resultados de uma pesquisa (DFS, BFS)
- *
- * @param lista
- */
-void ImprimirListaResultado(Listagem *lista);
-/**
- * @brief  Liberta a memória ocupada pela lista de resultados
- *
- * @param lista
- */
-void LimparVisitados(GrafoAntenas *grafo);
-
-/**
- * @brief Adiciona um vértice à stack
- *
- * @param topo
- * @param v
- * @return Listagem*
- */
-void pushStack(Listagem **topo, Vertice *v, CodigoErro *codigo);
-
-Vertice *popStack(Listagem **topo);
 
 #endif

@@ -9,7 +9,7 @@
  *
  */
 
-#include "include/grafo.h"
+#include "include/busca.h"
 int main()
 {
     CodigoErro codigo;
@@ -30,12 +30,13 @@ int main()
         printf("Erro ao guardar o grafo.\n");
     }
 
-    Listagem *pesquisa = DepthFirstSearch(grafo, 3, &codigo);
+    Caminho *pesquisa = ProcuraCaminhos(grafo, 2, 7, &codigo);
     if (codigo != SUCESSO)
     {
         trataErro(&codigo);
         return 1;
     }
-    ImprimirListaResultado(pesquisa);
+    ImprimirTodosCaminhos(pesquisa);
+    LimparCaminhos(pesquisa);
     return 0;
 }
