@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['emissor_31',['Emissor',['../structEmissor.html',1,'']]]
+  ['adj_43',['Adj',['../structAdj.html',1,'']]]
 ];

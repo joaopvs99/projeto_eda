@@ -23,7 +23,7 @@ GrafoAntenas *CriarGrafo()
     return novo;
 }
 
-void MostrarGrafo(GrafoAntenas *grafo)
+void ImprimeGrafo(GrafoAntenas *grafo)
 {
     if (grafo == NULL)
     {
@@ -119,6 +119,8 @@ GrafoAntenas *ImportaGrafo(const char *filename, CodigoErro *codigo)
     fclose(fp);
 
     *codigo = SUCESSO;
+    if (!GuardaGrafo("../data/grafo.bin", grafo))
+        *codigo = ERRO_FICHEIRO_NAO_ENCONTRADO;
     return grafo;
 }
 

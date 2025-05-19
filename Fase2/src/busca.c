@@ -250,7 +250,6 @@ Listagem *BreadthFirstSearch(GrafoAntenas *grafo, int idOrigem, CodigoErro *codi
  */
 void ImprimirListaResultado(Listagem *lista)
 {
-    printf("Vértices visitados na DFS:\n");
     while (lista)
     {
         printf("ID: %d | Sinal: %c | Coordenadas: (%d, %d)\n",

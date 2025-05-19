@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['guardar_5fmapa_46',['guardar_mapa',['../mapa_8c.html#a9193db22a7160908f8c0f64363c0e1d8',1,'guardar_mapa(Mapa *head, CodigoErro *codigo):&#160;mapa.c'],['../mapa_8h.html#a9193db22a7160908f8c0f64363c0e1d8',1,'guardar_mapa(Mapa *head, CodigoErro *codigo):&#160;mapa.c']]]
+  ['depthfirstsearch_63',['DepthFirstSearch',['../busca_8c.html#a5a045298e462e164b8ee0bcaa60c486f',1,'DepthFirstSearch(GrafoAntenas *grafo, int idOrigem, CodigoErro *codigo):&#160;busca.c'],['../busca_8h.html#a5a045298e462e164b8ee0bcaa60c486f',1,'DepthFirstSearch(GrafoAntenas *grafo, int idOrigem, CodigoErro *codigo):&#160;busca.c']]]
 ];

@@ -1,5 +1,6 @@
 {
   "files.associations": {
-    "busca.h": "c"
+    "busca.h": "c",
+    "menu.h": "c"
   }
 }

@@ -97,16 +97,14 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="trata__erro_8h__dep__incl.png" border="0" usemap="#ainclude_2trata__erro_8hdep" alt=""/></div>
 <map name="ainclude_2trata__erro_8hdep" id="ainclude_2trata__erro_8hdep">
-<area shape="rect" title="Estrutura de erro e funções associadas." alt="" coords="67,5,216,32"/>
+<area shape="rect" title="Estrutura de erro e funções associadas." alt="" coords="63,5,212,32"/>
 <area shape="rect" href="trata__erro_8c.html" title="funções relativasao tratamento de erro" alt="" coords="5,80,125,107"/>
-<area shape="rect" href="emissor_8h.html" title="Estrutura da emissor e funções associadas." alt="" coords="149,80,285,107"/>
-<area shape="rect" href="emissor_8c.html" title="funções relativas aos emissores" alt="" coords="95,155,201,181"/>
-<area shape="rect" href="mapa_8h.html" title="Estrutura da mapa e função associadas." alt="" coords="225,155,348,181"/>
-<area shape="rect" href="mapa_8c.html" title="funções relativas ao mapa" alt="" coords="167,229,260,256"/>
-<area shape="rect" href="efeito__nef_8h.html" title="Estrura do efeito nefasto e funções a associadas." alt="" coords="285,229,435,256"/>
-<area shape="rect" href="efeito__nef_8c.html" title="funções relativas ao efeito nefasto" alt="" coords="226,304,347,331"/>
-<area shape="rect" href="menu_8h.html" title="Funções associadas ao menu da consola." alt="" coords="372,304,495,331"/>
-<area shape="rect" href="menu_8c.html" title="Funções associadas ao menu da consola." alt="" coords="387,379,480,405"/>
+<area shape="rect" href="grafo_8h.html" title="Tipos de dados e funções associadas ao grafo de antenas." alt="" coords="150,80,269,107"/>
+<area shape="rect" href="grafo_8c.html" title="Funções associadas ao grafo." alt="" coords="99,155,189,181"/>
+<area shape="rect" href="busca_8h.html" title="Estruturas e funções para busca no grafo." alt="" coords="213,155,336,181"/>
+<area shape="rect" href="busca_8c.html" title="Estruturas e funções para busca no grafo." alt="" coords="161,229,255,256"/>
+<area shape="rect" href="menu_8h.html" title="Funções associadas ao menu da consola." alt="" coords="280,229,403,256"/>
+<area shape="rect" href="menu_8c.html" title="Funções associadas ao menu da consola." alt="" coords="295,304,388,331"/>
 </map>
 </div>
 </div>
@@ -123,13 +121,13 @@ typedef enum <a class="el" href="trata__erro_8h.html#a897d5a057e10e5c0cc24eb0288
 Enumerations</h2></td></tr>
 <tr class="memitem:a897d5a057e10e5c0cc24eb02885d9d68"><td class="memItemLeft" align="right" valign="top"><a id="a897d5a057e10e5c0cc24eb02885d9d68"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="trata__erro_8h.html#a897d5a057e10e5c0cc24eb02885d9d68">CodigoErro</a> { <br />
 &#160;&#160;<b>SUCESSO</b>
-, <b>ERRO_SEM_MEMORIA</b>
+, <b>ERRO_MEMORIA</b>
+, <b>ERRO_VERTICE_NAO_EXISTE</b>
 , <b>ERRO_FICHEIRO_NAO_ENCONTRADO</b>
-, <b>ERRO_FICHEIRO_VAZIO</b>
 , <br />
-&#160;&#160;<b>ERRO_LISTA_VAZIA</b>
+&#160;&#160;<b>ERRO_FICHEIRO_VAZIO</b>
+, <b>ERRO_GRAFO_VAZIO</b>
 , <b>ERRO_EMISSOR_NAO_ENCONTRADO</b>
-, <b>ERRO_NENHUM_EFEITO</b>
 <br />
  }</td></tr>
 <tr class="memdesc:a897d5a057e10e5c0cc24eb02885d9d68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estrutura do enumerador de erros. <br /></td></tr>

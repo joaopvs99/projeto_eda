@@ -1,12 +1,10 @@
 <map id="include/trata_erro.h" name="include/trata_erro.h">
-<area shape="rect" id="node1" title="Estrutura de erro e funções associadas." alt="" coords="67,5,216,32"/>
+<area shape="rect" id="node1" title="Estrutura de erro e funções associadas." alt="" coords="63,5,212,32"/>
 <area shape="rect" id="node2" href="$trata__erro_8c.html" title="funções relativasao tratamento de erro" alt="" coords="5,80,125,107"/>
-<area shape="rect" id="node3" href="$emissor_8h.html" title="Estrutura da emissor e funções associadas." alt="" coords="149,80,285,107"/>
-<area shape="rect" id="node4" href="$emissor_8c.html" title="funções relativas aos emissores" alt="" coords="95,155,201,181"/>
-<area shape="rect" id="node5" href="$mapa_8h.html" title="Estrutura da mapa e função associadas." alt="" coords="225,155,348,181"/>
-<area shape="rect" id="node6" href="$mapa_8c.html" title="funções relativas ao mapa" alt="" coords="167,229,260,256"/>
-<area shape="rect" id="node7" href="$efeito__nef_8h.html" title="Estrura do efeito nefasto e funções a associadas." alt="" coords="285,229,435,256"/>
-<area shape="rect" id="node8" href="$efeito__nef_8c.html" title="funções relativas ao efeito nefasto" alt="" coords="226,304,347,331"/>
-<area shape="rect" id="node9" href="$menu_8h.html" title="Funções associadas ao menu da consola." alt="" coords="372,304,495,331"/>
-<area shape="rect" id="node10" href="$menu_8c.html" title="Funções associadas ao menu da consola." alt="" coords="387,379,480,405"/>
+<area shape="rect" id="node3" href="$grafo_8h.html" title="Tipos de dados e funções associadas ao grafo de antenas." alt="" coords="150,80,269,107"/>
+<area shape="rect" id="node4" href="$grafo_8c.html" title="Funções associadas ao grafo." alt="" coords="99,155,189,181"/>
+<area shape="rect" id="node5" href="$busca_8h.html" title="Estruturas e funções para busca no grafo." alt="" coords="213,155,336,181"/>
+<area shape="rect" id="node6" href="$busca_8c.html" title="Estruturas e funções para busca no grafo." alt="" coords="161,229,255,256"/>
+<area shape="rect" id="node7" href="$menu_8h.html" title="Funções associadas ao menu da consola." alt="" coords="280,229,403,256"/>
+<area shape="rect" id="node8" href="$menu_8c.html" title="Funções associadas ao menu da consola." alt="" coords="295,304,388,331"/>
 </map>

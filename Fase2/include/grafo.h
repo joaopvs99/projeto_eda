@@ -128,7 +128,7 @@ typedef struct GrafoAntenas
  */
 GrafoAntenas *CriarGrafo();
 
-void MostrarGrafo(GrafoAntenas *grafo);
+void ImprimeGrafo(GrafoAntenas *grafo);
 /**
  * @brief  Guarda o grafo num ficheiro binário
  *

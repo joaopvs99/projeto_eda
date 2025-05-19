@@ -9,34 +9,35 @@
  *
  */
 
-#include "include/busca.h"
+#include "include/menu.h"
 int main()
 {
-    CodigoErro codigo;
+    // CodigoErro codigo;
 
-    GrafoAntenas *grafo = CarregaGrafo("data/grafo.bin", &codigo);
+    // GrafoAntenas *grafo = CarregaGrafo("data/grafo.bin", &codigo);
 
-    if (codigo != SUCESSO)
-    {
-        trataErro(&codigo);
-        return 1;
-    }
-    if (GuardaGrafo("data/grafo.bin", grafo))
-    {
-        printf("Grafo guardado com sucesso.\n");
-    }
-    else
-    {
-        printf("Erro ao guardar o grafo.\n");
-    }
+    // if (codigo != SUCESSO)
+    // {
+    //     trataErro(&codigo);
+    //     return 1;
+    // }
+    // if (GuardaGrafo("data/grafo.bin", grafo))
+    // {
+    //     printf("Grafo guardado com sucesso.\n");
+    // }
+    // else
+    // {
+    //     printf("Erro ao guardar o grafo.\n");
+    // }
 
-    Caminho *pesquisa = ProcuraCaminhos(grafo, 2, 7, &codigo);
-    if (codigo != SUCESSO)
-    {
-        trataErro(&codigo);
-        return 1;
-    }
-    ImprimirTodosCaminhos(pesquisa);
-    LimparCaminhos(pesquisa);
+    // Caminho *pesquisa = ProcuraCaminhos(grafo, 2, 7, &codigo);
+    // if (codigo != SUCESSO)
+    // {
+    //     trataErro(&codigo);
+    //     return 1;
+    // }
+    // ImprimirTodosCaminhos(pesquisa);
+    // LimparCaminhos(pesquisa);
+    MenuPrincipal();
     return 0;
 }
