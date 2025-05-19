@@ -513,4 +513,46 @@ void LimparLista(Listagem *lista)
         free(temp);
     }
 }
+
+/**
+ * @brief Procura interceções entre dois vértices
+ *
+ * @param grafo
+ * @param id1
+ * @param id2
+ * @param codigo
+ * @return Caminho*
+ */
+Caminho *ProcuraIntercetores(GrafoAntenas *grafo, int id1, int id2, CodigoErro *codigo)
+{
+    if (!grafo || !grafo->head)
+    {
+        *codigo = ERRO_GRAFO_VAZIO;
+        return NULL;
+    }
+
+    Vertice *v1 = ProcurarVertice(grafo->head, id1);
+    if (!v1)
+    {
+        *codigo = ERRO_VERTICE_NAO_EXISTE;
+        return NULL;
+    }
+    Vertice *v2 = ProcurarVertice(grafo->head, id2);
+    if (!v2)
+    {
+        *codigo = ERRO_VERTICE_NAO_EXISTE;
+        return NULL;
+    }
+
+    if (v1->id == v2->id)
+    {
+        *codigo = ERRO_MESMO_VERTICE;
+        return NULL;
+    }
+    if (v1->sinal == v2->sinal)
+    {
+        *codigo = ERRO_MESMO_SINAL;
+        return NULL;
+    }
+}
 #pragma endregion

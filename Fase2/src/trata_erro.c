@@ -29,6 +29,12 @@ void trataErro(CodigoErro *codigo)
     case ERRO_VERTICE_NAO_EXISTE:
         printf("ERRO: Vértice não existe\n");
         break;
+    case ERRO_MESMO_VERTICE:
+        printf("ERRO: Os dois vértices são  iguais\n");
+        break;
+    case ERRO_MESMO_SINAL:
+        printf("ERRO: Os dois vértices têm o mesmo sinal\n");
+        break;
     case ERRO_FICHEIRO_NAO_ENCONTRADO:
         printf("ERRO: Nenhum ficheiro encontrado\n");
         break;

@@ -112,6 +112,17 @@ void LimparVisitados(GrafoAntenas *grafo);
  *
  * @param c
  */
+
 void LimparCaminhos(Caminho *c);
+/**
+ * @brief Procura interceções entre dois vértices
+ *
+ * @param grafo
+ * @param id1
+ * @param id2
+ * @param codigo
+ * @return Caminho*
+ */
+Caminho *ProcuraIntercetores(GrafoAntenas *grafo, int id1, int id2, CodigoErro *codigo);
 
 #endif
